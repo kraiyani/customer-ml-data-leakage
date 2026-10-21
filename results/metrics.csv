@@ -1,0 +1,6 @@
+experiment,roc_auc,average_precision,accuracy,train_row_count,test_row_count,customer_overlap_count,future_feature_row_count,training_labels_after_test_start_count,test_positive_rate
+random_rows,0.836026,0.789650,0.767778,5400,1800,299,0,5400,0.405000
+customer_grouped,0.713793,0.649145,0.657222,5400,1800,0,0,5400,0.432778
+chronological,0.826301,0.781191,0.760000,5100,1800,300,0,0,0.427222
+future_feature,1.000000,1.000000,1.000000,5100,1800,300,1800,0,0.427222
+point_in_time,0.825284,0.781239,0.758889,5100,1800,300,0,0,0.427222

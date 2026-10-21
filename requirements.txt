@@ -1,0 +1,5 @@
+matplotlib==3.10.6
+numpy==2.0.0
+pandas==2.2.2
+pydantic==2.13.4
+scikit-learn==1.7.2

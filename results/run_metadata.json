@@ -1,0 +1,31 @@
+{
+  "configuration": {
+    "customer_count": 300,
+    "ingestion_lag_duration": "P2D",
+    "label_horizon_duration": "P30D",
+    "period_count": 24,
+    "seed": 42
+  },
+  "data_sha256": {
+    "payment_events.csv": "dffbcf7a71f2ff9df6c4888199fb7cd191337868d2be1c32506c452ddb19aba1",
+    "point_in_time_features.csv": "e547a1dad219c4e69e69ea156ff6181091a7e2455283afaefadd2c6c342a033d",
+    "synthetic_customers.csv": "3a30bd762581e388d6cc7098315760801997a44fb8b8665d44d743e4f90ca5cb"
+  },
+  "model": "Training-only preprocessing + one-hot customer ID + LogisticRegression(C=10, max_iter=2000, tol=1e-8)",
+  "package_versions": {
+    "matplotlib": "3.10.6",
+    "numpy": "2.0.0",
+    "pandas": "2.2.2",
+    "pydantic": "2.13.4",
+    "scikit-learn": "1.7.2"
+  },
+  "python_version": "3.11.7",
+  "source_sha256": {
+    "__init__.py": "3ec46609722f205ac766e47bc1a4f07ed3b1cfbc98126bca40933ff0f1ccbf2b",
+    "feature_engineering.py": "34e03f63f626aba030a1febca112f20ebfc180a0faa6d68e03168187a20f5415",
+    "generate_data.py": "d163554fe978536e570d1f7b34baf37561f712e90e857706a3265057857bef74",
+    "reporting.py": "ef2400033630f23e923fe02f619b453e056717dc5e276f4d03c6fb389ed1b042",
+    "train_evaluate.py": "5366ea4e7b4e994f0bef3f3657fd82724396b6f6fb3c7c45256a5d404b2fed8a",
+    "validation_strategies.py": "e90ee6808821b00f022d9e77390dfe12dee5e4562088ce9e694df7455ab2d10c"
+  }
+}

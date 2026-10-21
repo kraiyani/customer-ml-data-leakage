@@ -143,19 +143,6 @@ from the source. Notebook execution repeats the saved run configuration from
 is absent. Its displayed chart is written under `.cache/` so execution does
 not replace canonical results. Its source is `scripts/build_notebook.py`.
 
-## Update the companion article
-
-From this project's root, after regenerating results:
-
-```powershell
-python -m scripts.export_blog --website "PATH_TO/kraiyani.github.io"
-```
-
-The exporter fills the website's `templates/leakage-article.md` with the
-measured table and configuration, and copies the metrics, chart and
-provenance. Then run `node scripts/build-blog.cjs` in the website repository.
-The old article slug remains a redirect to the longer canonical URL.
-
 ## Limits
 
 This demonstration does not model real customer behaviour, establish a
